@@ -1,0 +1,29 @@
+{
+  "name": "express-github-oauth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "krystian-mw <krystian@mwebdev.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js -w app.js -w routes -w models",
+    "start": "NODE_ENV=production node app"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.5.2",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.3",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10"
+  }
+}
